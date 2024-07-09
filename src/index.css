@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 0, 0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home-top{
+ 
+ background: rgba(0, 0, 0, 0.5);
+}
+.footer{
+  background-color: rgb(34, 34, 34);
+  color: whitesmoke;
+  
+
+}
+.footermenu{
+  list-style-type: none;
+  justify-content: space-around;
+}
+.scroll-pane{
+  width: 100%;
+  height: auto;
+  outline: none;
+  overflow-y: hidden;
+  padding-bottom: 15px;
+  -ms-overflow-style: scroll;
+  scrollbar-width: none;
+}
+.scroll-pane::-webkit-scrollbar {
+  display: none;
+}
+.userImage{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.row-posters{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row-poster{
+  /* object-fit: contain; */
+  width: 100%;
+ height: 250px;
+ padding-right: 10px;
+  transition: transform 450ms;
+ width: 210px;
+  
+}
+.row-poster:hover {
+  transform: scale(1.08);
+}
+.cardImage{
+ opacity: 0.4;
+ filter: blur(1px);
+ -webkit-filter: blur(2px)
+}
+
+.dropdown-item:hover{
+  color:rgb(0, 0, 0) !important;
+}
+.cardfont{
+  font-size: larger;
+}
+.modalheader{
+  font-size: larger;
+  display: block;
+  margin:auto;
+}
+.modalfooter{
+  display: flex;
+  justify-content: space-around;
+}
